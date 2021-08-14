@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit
 
 class OkHttpUtil private constructor(private val client: OkHttpClient) {
     companion object {
-        private val TIMEOUT = 16
+        private val TIMEOUT = 30
         private var client: OkHttpClient? = null
 
         fun init(client: OkHttpClient) {

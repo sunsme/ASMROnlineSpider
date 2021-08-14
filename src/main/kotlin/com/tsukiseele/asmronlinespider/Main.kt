@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     val ALLOW_FILE = arrayOf(".mp3", ".jpg", ".png", ".txt")
 
     val gs = Gson()
-    val authorization = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2FzbXIub25lIiwic3ViIjoidHN1a2lzZWVsZSIsImF1ZCI6Imh0dHBzOi8vYXNtci5vbmUvYXBpIiwibmFtZSI6InRzdWtpc2VlbGUiLCJncm91cCI6InVzZXIiLCJpYXQiOjE2MjcyMTgwMTUsImV4cCI6MTYyODQyNzYxNX0.4Ocg-vyWy3_7yL-O-BoIb4BSjkHQveJaf88c6_k2-7s"
+    val authorization = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2FzbXIub25lIiwic3ViIjoidHN1a2lzZWVsZSIsImF1ZCI6Imh0dHBzOi8vYXNtci5vbmUvYXBpIiwibmFtZSI6InRzdWtpc2VlbGUiLCJncm91cCI6InVzZXIiLCJpYXQiOjE2Mjg5NDY5MzEsImV4cCI6MTYzMDE1NjUzMX0.0QwksJvg5VmPHW1iVc-rcXzFsDIQSWuuvLHXSDlzWKI"
     val token = authorization.replace("Bearer ", "")
     val headers = Headers.Builder()
         .add("authorization", authorization)
